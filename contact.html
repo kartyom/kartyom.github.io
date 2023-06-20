@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,43 +13,40 @@
   </head>
   <body>
     <div class="root">
-      <div class="window">
-        <div class="photo">
+      <aside class="window">
+        <header class="photo">
           <img class="profile" src="/images/profile-photo.jpeg" />
           <h2>Artyom Karapetyan</h2>
-        </div>
-        <div class="icons">
-          <a href="/" class="info-container">
+        </header>
+        <nav class="icons">
+          <a href="/" class="info-container active">
             <img class="icon" src="/images/home-grey.png" />
             <img class="icon icon-white" src="/images/home-white.png" />
             <span>Home</span>
           </a>
-          <a href="/about" class="info-container">
+          <a href="about.html" class="info-container">
             <img class="icon" src="/images/about-grey.png" />
             <img class="icon icon-white" src="/images/about-white.png" />
             <span>About</span>
           </a>
-          <a href="/resume" class="info-container">
+          <a href="projects.html" class="info-container">
             <img class="icon" src="/images/resume-grey.png" />
             <img class="icon icon-white" src="/images/resume-white.png" />
-            <span>Resume</span>
+            <span>Projects</span>
           </a>
-          <a href="/contact" class="info-container active">
+          <a href="contact.html" class="info-container">
             <img class="icon" src="/images/contact-grey.png" />
             <img class="icon icon-white" src="/images/contact-white.png" />
             <span>Contact</span>
           </a>
-        </div>
-      </div>
-      <div class="other">
-        <div class="contact" style="padding: 200px">
-          <h1>Contact with me</h1>
-          <h2>Phone number <br />+374 43 04-04-99</h2>
-          <h2>Email <br />artyomkarapetyan29@gmail.com</h2>
-          <h2>Telegram <br />@ArtyomKarapetyan</h2>
-        </div>
-      </div>
+        </nav>
+      </aside>
+      <article class="contact" style="padding: 200px">
+        <h2>Contact with me</h2>
+        <h2>Phone number <br />+374 43 04-04-99</h2>
+        <h2>Email <br />artyomkarapetyan29@gmail.com</h2>
+        <h2>Telegram <br />@ArtyomKarapetyan</h2>
+      </article>
     </div>
-    <script src="/script.js"></script>
   </body>
 </html>
